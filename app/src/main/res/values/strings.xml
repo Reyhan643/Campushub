@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Campushub</string>
+    <string name="label_name">Nama Lengkap</string>
+    <string name="label_email">Alamat Email</string>
+    <string name="label_phone">Nomor Telepon</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Konfirmasi Password</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_save">Simpan</string>
+</resources>

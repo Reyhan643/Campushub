@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Logo -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/campus_hub_2"
+            android:layout_marginTop="24dp"
+            android:contentDescription="Logo Campushub" />
+
+        <!-- Ilustrasi -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/boy_girl_laptop"
+            android:scaleType="fitCenter"
+            android:contentDescription="Ilustrasi Mahasiswa" />
+
+        <!-- Input Email -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Email"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:inputType="textEmailAddress" />
+
+        <!-- Input Password -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Password"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:inputType="textPassword" />
+
+        <!-- Tombol Register (gambar) -->
+        <ImageButton
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/button_register"
+            android:background="@android:color/transparent"
+            android:contentDescription="Tombol Register" />
+
+        <!-- Sudah punya akun -->
+        <ImageView
+            android:id="@+id/imgSudahPunyaAkun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/sudah_punya__akun"
+            android:contentDescription="Sudah punya akun" />
+    </LinearLayout>
+</ScrollView>

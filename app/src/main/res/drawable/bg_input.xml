@@ -1,0 +1,6 @@
+<!-- res/drawable/bg_input.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Campushub</string>
+    <solid android:color="@color/input_bg"/>
+    <corners android:radius="12dp"/>
+</shape>

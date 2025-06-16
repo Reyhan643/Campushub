@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema utama -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item> <!-- Ganti accent dengan warna yang ada -->
+    </style>
+
+    <!-- EditText Style -->
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@color/black</item> <!-- fallback warna -->
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@android:drawable/edit_text</item> <!-- pakai background default -->
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- TextView Bold Style -->
+    <style name="TextStyleBold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+</resources>

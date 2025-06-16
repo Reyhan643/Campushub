@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Logo Campushub -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/campus_hub_2"
+            android:layout_marginTop="24dp"
+            android:contentDescription="Logo Campushub" />
+
+        <!-- Ilustrasi Hero -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Ilustrasi Mahasiswa"
+            android:scaleType="fitCenter"
+            android:src="@drawable/boy_girl_laptop" />
+
+
+        <!-- Judul -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_login_card"
+            android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halo, civitas akademika!"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Subjudul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login sekarang dan ambil bagian dalam membentuk ruang kolaborasi dan inovasi di dunia event kampus."
+            android:textColor="#B0BEC5"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Input Email -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:hint="Email"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:inputType="textEmailAddress" />
+
+        <!-- Input Password -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Password"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:inputType="textPassword" />
+
+        <!-- Tombol Login (gambar dari Figma) -->
+        <ImageButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/button_login"
+            android:background="@android:color/transparent"
+            android:contentDescription="Tombol Login" />
+
+        <!-- Gambar teks ATAU -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/teks_atau"
+            android:contentDescription="Teks ATAU" />
+
+        <!-- Tombol Daftar Sekarang -->
+        <ImageButton
+            android:id="@+id/btnToRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/button_google"
+            android:background="@android:color/transparent"
+            android:contentDescription="Tombol Daftar" />
+
+        <!-- Sudah punya akun (opsional teks bawah) -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/tidak_punya_akun_daftar"
+            android:contentDescription="Sudah punya akun" />
+
+    </LinearLayout>
+</ScrollView>
